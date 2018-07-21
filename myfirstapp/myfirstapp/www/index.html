@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        
+        <!-- mine -->
+        <link rel="stylesheet" type="text/css" href="css/accordion.css"/>
+        <link rel="stylesheet" type="text/css" href="css/values.css"/>
+        <link rel="stylesheet" type="text/css" href="css/myIndex.css"/>
+
+        <title>WE CARE</title>
+    </head>
+    <body>
+        <!--<div class="app">
+        <h1>Apache Cordova</h1>
+    <div id="deviceready" class="blink">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
+    </div>
+    <footer>
+            trauma center numbers
+            rape centers
+
+            hyperlinks in page
+
+            note pad
+        <h4>Copyright</h4>
+    </footer>-->
+        <div id="main">
+            <header>WE CARE</header>
+
+            <form method="post">
+                <input type="text" id="searchBar" placeholder="Search..." value="" autocomplete="off" />
+            </form>
+
+
+            <div id="sections">
+                <button class="sections">General Patient Care</button>
+                <button class="sections">Medical Protocols</button>
+                <button class="sections">Cardiac Protocols</button>
+                <button class="sections">Trauma Protocols</button>
+                <button class="sections">Airway Protocols and Procedures</button>
+                <button class="sections">Medical Directors Options</button>
+                <button class="sections">Medical Policies and Procedures</button>
+                <button class="sections">Special Operations Principles</button>
+                <button class="sections">Appendices</button>
+            </div>
+            <div id="options"></div>
+            <!--<a id="One"></a>
+        <button class="accordion">One</button>
+        <div class="panel">
+            THIS IS NUMBER ONE
+            <ul>
+                <li class="green">GREEN STUFF</li>
+                <li class="yellow">YELLOW STUFF</li>
+                <li class="red">RED STUFF</li>
+            </ul>
+        </div>
+        <a id="Two"></a>
+        <button class="accordion">Two</button>
+        <div class="panel">Content Two</div>
+        <div id="bottom"></div>
+        </div>-->
+            <div id="footer"></div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+
+        <!--mine-->
+        <script type="text/javascript" src="scripts/classes/ProtocolNodeClass.js"></script>
+        <script type="text/javascript" src="scripts/astetics/accordian.js"></script>
+        <script type="text/javascript" src="scripts/astetics/EnlargedImage.js"></script>
+        <script type="text/javascript" src="scripts/functionality/search.js"></script>
+        <script type="text/javascript" src="scripts/functionality/appFunctionality.js"></script>
+        <script type="text/javascript" src="scripts/functionality/info.js"></script>
+        <script type="text/javascript" src="scripts/functionality/rendering.js"></script>
+
+        <!--imported-->
+        <script type="text/javascript" src="scripts/functionality/hammer.js"></script>
+        <script type="text/javascript" src="scripts/functionality/zoom.js"></script>
+    </body>
+</html>

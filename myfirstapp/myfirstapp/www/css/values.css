@@ -1,0 +1,15 @@
+﻿ul{
+    list-style-type: none;
+}
+
+.green{
+    background: radial-gradient(circle at left, green, white 30%);
+}
+
+.yellow {
+    background: radial-gradient(circle at left, yellow, white 30%);
+}
+
+.red {
+    background: radial-gradient(circle at left, red, white 30%);
+}

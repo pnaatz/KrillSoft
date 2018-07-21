@@ -1,0 +1,47 @@
+﻿header{
+    text-align:center;
+}
+
+#searchBar{
+    width: 90%;
+}
+
+#cancelSearch{
+    width:10%;
+}
+
+.sections {
+    width: 100%;
+}
+
+#active{
+    width: 80%;
+}
+
+.image{
+    width:100%;
+}
+
+#enlargedContainer{
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+#enlarged{
+    width:100%;
+    height:100%;
+}
+
+#buttons{
+    width:100%;
+    height:40px;
+}
+
+.highlight{
+    background-color:blue;
+}
+
+#back{
+    width:20%;
+}
